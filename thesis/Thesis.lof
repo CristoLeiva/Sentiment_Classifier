@@ -1,0 +1,57 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Global Concentrated Solar Power potential based on climatic data{\nobreakspace {}\cite {TckTckTck}}\relax }}{3}{figure.caption.6}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Renewable Power capacities installed in the world, 2013{\nobreakspace {}\cite {sawin2014renewables}}\relax }}{4}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \relax }}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces an RDF Triple used in the knowledge base for CSP India\relax }}{9}{figure.caption.14}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Levels of knowledge representation by OWL,RDF and XML{\nobreakspace {}\cite {semWebOwl}}\relax }}{11}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Domains covered in SWEET Ontologies{\nobreakspace {}\cite {SWEET_nasa}}\relax }}{13}{figure.caption.30}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces FOAF concepts to describe a person (e.g. a CSP consultant)\relax }}{14}{figure.caption.32}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces An SKOS concept hierarchy in CSPOnto\relax }}{15}{figure.caption.34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Concept (Company) re-use and extension from SWEET Ontologies, to build CSPOnto\relax }}{17}{figure.caption.38}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Concept (Project) re-used from FOAF vocabulary, to build CSPOnto\relax }}{19}{figure.caption.39}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Conceptual groups of CSPOnto, added under skos:Concept\relax }}{20}{figure.caption.40}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Different views and functionality tabs in Protege Ontology Editor\relax }}{21}{figure.caption.42}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Scalability overview of SWEET ontologies{\nobreakspace {}\cite {SWEET_nasa}}\relax }}{22}{figure.caption.43}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Multi-level design of the knowledge-base (referred here as Smart Semantic Service)\relax }}{24}{figure.caption.46}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Use-Case diagram for interaction between EUCompany and the Government, in the Indian market location\relax }}{25}{figure.caption.48}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Use-Case diagram for interaction between EUCompany and Data Provider, in the Indian market location\relax }}{25}{figure.caption.49}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Use-Case diagram for interaction between EUCompany and Financial Institution, in the Indian market location\relax }}{26}{figure.caption.50}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Use-Case diagram for interaction between EUCompany and Indian Company, in the Indian market location\relax }}{26}{figure.caption.51}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Use-Case scenario for accessing EUCompany details through the knowledge base\relax }}{30}{figure.caption.56}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Reductionism in CSP ontology (CSPOnto) to formulate compound-terms\relax }}{31}{figure.caption.59}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces SWEET concept (Evaluation) re-used in CSPOnto\relax }}{33}{figure.caption.62}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces FOAF (Agent) concept re-used in CSPOnto\relax }}{33}{figure.caption.64}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces SKOS hierarchy in CSPOnto\relax }}{35}{figure.caption.67}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ontology Engineering steps for CSPOnto\relax }}{37}{figure.caption.71}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Online Survey Results on CSP,India Knowledge-base\relax }}{50}{figure.caption.97}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Triple Patterns from Competency Questions\relax }}{51}{figure.caption.99}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces SPARQL query on the knowledge-base for CSP, India\relax }}{52}{figure.caption.106}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces CSPOnto classified using reasoner FaCT++\relax }}{54}{figure.caption.119}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces CSPOnto validated using OWL2 Validator\relax }}{55}{figure.caption.121}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces CSPOnto concept "Company" visualized using Protege OWLViz\relax }}{56}{figure.caption.123}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces CSPOnto concept "Company" visualized using Protege OntoGraph\relax }}{57}{figure.caption.124}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces ORSD document for CSPOnto formulation\relax }}{63}{figure.caption.132}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces OSD document for CSPOnto formulation\relax }}{63}{figure.caption.133}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Competency Questions for CSPOnto formulation\relax }}{65}{figure.caption.135}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Competency Questions for CSPOnto formulation\relax }}{66}{figure.caption.136}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Competency Questions for CSPOnto formulation\relax }}{67}{figure.caption.137}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Competency Questions for CSPOnto formulation\relax }}{68}{figure.caption.138}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Competency Questions for CSPOnto formulation\relax }}{69}{figure.caption.139}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Competency Questions for CSPOnto formulation\relax }}{70}{figure.caption.140}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces SPARQL Example : Find all CSP Project Types\relax }}{71}{figure.caption.143}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces SPARQL Example : Find the Administration type at the location\relax }}{71}{figure.caption.144}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces SPARQL Example : Find list of Indian Companies\relax }}{71}{figure.caption.145}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces SPARQL Example : Find list of EU Companies\relax }}{72}{figure.caption.146}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces SPARQL Example : Find list of CSP Project Data\relax }}{72}{figure.caption.147}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces SPARQL Example : Find list of CSP Project Activities\relax }}{72}{figure.caption.148}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces Experts who responded to the survey on CSPOnto formulation\relax }}{73}{figure.caption.152}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces CSP Domain experts' comments\relax }}{73}{figure.caption.153}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces CSP Domain concepts Questionnaire\relax }}{75}{figure.caption.155}
+\contentsline {figure}{\numberline {A.18}{\ignorespaces CSP Domain concepts survey statistics\relax }}{76}{figure.caption.156}

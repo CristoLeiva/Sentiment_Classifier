@@ -1,0 +1,39 @@
+{#debug}{>"core/layout.dust"/}{:else}{>"core/layout.cdn.dust"/}{/debug}
+{<menu}
+    {>"menu/mainmenu.dust" home="true" /}
+{/menu}
+{<menu_right}
+    {>"menu/mainmenuRight.dust" user=user /}
+{/menu_right}
+{<body}
+    <div class="container" ng-controller="HomeController">
+        <div class="row" id="description_block">
+            <div class="col-xs-6 col-md-4">
+                <img class="img-responsive img-rounded" src="img/play.png" id="play_video" />
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-8" id="description_text_block">
+                <h1>Lightweight Text Analytics using Linked Data</h1>
+
+                <p class="lead" style="text-align:justify;">
+                    <b>conTEXT</b> allows to semantically analyze text corpora (such as blogs, RSS/Atom feeds, Facebook, G+, Twitter or <a href="http://slidewiki.org">SlideWiki.org</a> decks) and provides novel ways for <span class="text-success">browsing</span> and <span class="text-warning">visualizing</span> the results.
+                    <a class="btn btn-info btn-padded" href="#about">Read More...</a>
+                    <a class="btn btn-primary btn-padded" href="#">Try it for free</a>
+                </p>
+            </div>
+            <hr/>
+        </div>
+
+        {?error}
+        <div class="alert alert-danger">{error}</div>
+        {/error}
+
+        {#user}
+        {>"helpers/selectcorpus.dust" corpuses=corpuses /}
+        {:else}
+        {>"helpers/auth.dust" username=oldusername /}
+        {/user}
+
+        {>"helpers/sponsors.dust"/}
+    </div>
+    {>"helpers/userecho.dust"/}
+{/body}

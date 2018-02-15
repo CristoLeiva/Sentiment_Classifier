@@ -1,0 +1,163 @@
+//ALL features
+{ accuracy: 0.635500515995872,
+  fscore: 0.6291545189504373,
+  recall: 0.6154798761609908,
+  precision: 0.5944903581267218,
+  class:
+   { '0':
+      { precision: 0.669328010645376,
+        recall: 0.6229102167182663,
+        fscore: 0.6452854393842206,
+        size: 1615 },
+     '1':
+      { precision: 0.5944903581267218,
+        recall: 0.6681114551083591,
+        fscore: 0.6291545189504373,
+        size: 1615 },
+     '-1':
+      { precision: 0.6509495743287492,
+        recall: 0.6154798761609908,
+        fscore: 0.6327180140038192,
+        size: 1615 } },
+  size: 4845,
+  reduce: true,
+  retainedVariance: 0.9905777518111296,
+  retainedDimension: 25,
+  initialDimension: 37
+}
+
+//no-Unigrams
+{ accuracy: 0.6264189886480909,
+  fscore: 0.6193812025685932,
+  recall: 0.6037151702786377,
+  precision: 0.5858641634456102,
+  class:
+   { '0':
+      { precision: 0.6576695194206715,
+        recall: 0.6185758513931888,
+        fscore: 0.6375239310784939,
+        size: 1615 },
+     '1':
+      { precision: 0.5858641634456102,
+        recall: 0.6569659442724458,
+        fscore: 0.6193812025685932,
+        size: 1615 },
+     '-1':
+      { precision: 0.6435643564356436,
+        recall: 0.6037151702786377,
+        fscore: 0.6230031948881789,
+        size: 1615 } },
+  size: 4845,
+  reduce: true,
+  retainedVariance: 0.9907024819736336,
+  retainedDimension: 28,
+  initialDimension: 43
+}
+
+//No emoticons
+{ accuracy: 0.6266253869969041,
+  fscore: 0.6182669789227165,
+  recall: 0.6055727554179566,
+  precision: 0.5863409217101611,
+  class:
+   { '0':
+      { precision: 0.6549019607843137,
+        recall: 0.6204334365325077,
+        fscore: 0.6372019077901432,
+        size: 1615 },
+     '1':
+      { precision: 0.5863409217101611,
+        recall: 0.6538699690402476,
+        fscore: 0.6182669789227165,
+        size: 1615 },
+     '-1':
+      { precision: 0.6459709379128138,
+        recall: 0.6055727554179566,
+        fscore: 0.6251198465963567,
+        size: 1615 } },
+  size: 4845,
+  reduce: true,
+  retainedVariance: 0.9905777518111296,
+  retainedDimension: 25,
+  initialDimension: 37 }
+
+//No Lexicon
+{ accuracy: 0.495562435500516,
+  fscore: 0.3623564283067803,
+  recall: 0.3027863777089783,
+  precision: 0.441025641025641,
+  class:
+   { '0':
+      { precision: 0.6476345840130505,
+        recall: 0.491640866873065,
+        fscore: 0.558958113340373,
+        size: 1615 },
+     '1':
+      { precision: 0.441025641025641,
+        recall: 0.6922600619195046,
+        fscore: 0.5387951807228917,
+        size: 1615 },
+     '-1':
+      { precision: 0.4511070110701107,
+        recall: 0.3027863777089783,
+        fscore: 0.3623564283067803,
+        size: 1615 } },
+  size: 4845,
+  reduce: true,
+  retainedVariance: 1,
+  retainedDimension: 7,
+  initialDimension: 11 }
+
+//No POS Tagger
+{ accuracy: 0.5760577915376677,
+  fscore: 0.5416799744490578,
+  recall: 0.525077399380805,
+  precision: 0.5339265850945495,
+  class:
+   { '0':
+      { precision: 0.5339265850945495,
+        recall: 0.5944272445820433,
+        fscore: 0.5625549370055668,
+        size: 1615 },
+     '1':
+      { precision: 0.5593667546174143,
+        recall: 0.525077399380805,
+        fscore: 0.5416799744490578,
+        size: 1615 },
+     '-1':
+      { precision: 0.6420640104506858,
+        recall: 0.6086687306501548,
+        fscore: 0.6249205340114431,
+        size: 1615 } },
+  size: 4845,
+  reduce: true,
+  retainedVariance: 0.9916986897854336,
+  retainedDimension: 23,
+  initialDimension: 36 }
+
+//No Punctuation
+{ accuracy: 0.5715170278637771,
+  fscore: 0.5367717287488061,
+  recall: 0.5219814241486068,
+  precision: 0.5285234899328859,
+  class:
+   { '0':
+      { precision: 0.5285234899328859,
+        recall: 0.5851393188854489,
+        fscore: 0.5553923009109609,
+        size: 1615 },
+     '1':
+      { precision: 0.5524246395806028,
+        recall: 0.5219814241486068,
+        fscore: 0.5367717287488061,
+        size: 1615 },
+     '-1':
+      { precision: 0.6407576747224036,
+        recall: 0.6074303405572755,
+        fscore: 0.6236490781945327,
+        size: 1615 } },
+  size: 4845,
+  reduce: true,
+  retainedVariance: 0.9916986897854336,
+  retainedDimension: 23,
+  initialDimension: 36 }

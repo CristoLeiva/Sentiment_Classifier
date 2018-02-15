@@ -1,0 +1,7 @@
+Recall (neutral): 0.6233333333333333 / Precision (neutral): 0.677536231884058
+Recall (positive): 0.66 / Precision (positive): 0.61875
+Recall (negative): 0.68 / Precision (negative): 0.6710526315789473
+F1 Neu: 0.6493055555555556
+F1 Pos: 0.6387096774193549
+F1 Neg: 0.6754966887417219
+Final F1: 0.6545039739055442

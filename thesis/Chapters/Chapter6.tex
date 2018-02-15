@@ -1,0 +1,61 @@
+\chapter{Conclusions and Future Work}
+\label{sec:conc} 
+
+This thesis presented the research, evaluation and solution for an entity-based sentiment classifier for social media analysis. Implemented system is able to perform sentiment classification of tweets based on the presence of entities and the opinion expressions targeting them. 
+
+This chapter aims conclude this masters thesis project with a summary of the achievements made, limitations encountered and possible future extensions and enhancements. 
+
+
+
+\section{Achievements}
+
+\begin{itemize} 
+\itemsep0em  
+
+\item The main goal of this thesis is the study of an entity-based sentiment classification approach for the analysis of social media data. The research presents the facts, reasons and evaluation results that led the project to the usage of most suitable methods for required solution.
+
+\item A successful approach was produced for the required solution. The presented approach is able to extract opinion expressions aiming relevant entities in tweets.
+
+\item The solution achieved satisfactory result in terms of Accuracy and F-Score, surpassing by a significant margin evaluated alternatives for sentiment classification.
+
+\item In terms of performance time, developed classifier is capable of work under real-time processing systems.
+
+\item Presented solutions was successfully integrated to SentiTrack, providing an improved sentiment analysis experience.
+
+\item The clean organization and structure of developed system, allows future interested researches to improve and modify provided tools.
+
+
+
+\end{itemize}
+
+\section{Limitations}
+
+\begin{itemize} 
+\itemsep0em  
+
+\item Memory issues limited the development of the classifier to the use of unigrams with bag-of-word method. The usage of different levels of n-grams as features might have contributed significantly with better final results.
+
+\item Some NodeJS modules used by developed classifier may produce incompatibility errors in specific versions of Windows OS, this issue is related to the usage of c++ libraries and other native resources.
+
+\item Despite the fact that entity-targeted opinion expressions were extracted from tweets, there are many cases where no clear separation of sentence is made, leading to incorrect classifications.  
+
+\item Presented solution is unable of identify the presence of advertisements and sarcasms in tweets. Therefore, sentiment analysis of specific products may yield inconsistent results.  
+
+
+\end{itemize}
+
+\section{Future Work}
+
+\begin{itemize} 
+\itemsep0em  
+
+\item An expansion of the sentiment classifier with a dependency parser capable of perform under real-time systems, would improve considerably the accuracy of the solution.   
+
+\item Improvements in accuracy can be made by using a more accurate named entity recognition module and higher levels of n-grams as feature vectors.
+
+\item Performance of the system could be enhanced by exploring the usage of different POS tagging solutions and automatic tokenization libraries.  
+
+\item Extend the solution to work with other social networks such as Facebook, LinkedIn and Google plus.  
+
+
+\end{itemize}

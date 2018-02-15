@@ -1,0 +1,6 @@
+<li {?home}class="active"{/home}><a href="/" target="_self">Home</a></li>
+{#user}
+    <li {?createCorpus}class="active"{/createCorpus}><a href="/createCorpus" target="_self">Create corpus</a></li>
+{:else}
+    <li {?reg}class="active"{/reg}><a href="/register"target="_self">Register</a></li>
+{/user}

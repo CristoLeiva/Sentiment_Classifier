@@ -1,0 +1,20 @@
+<div class="row" id="goto_corpus">
+    <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-8 corpus-select-box">
+        <form>
+        <div class="form-group">
+            <div class="input-group lead well corpus-select-input">
+                <span id="select_box" class="btn-padded">
+                    <select id="collection" class="selectpicker" ng-model="corpus" ng-change="corpusSelect()">
+                        <option value="0" ng-selected="true">Select an existing corpus</option>
+                        {#corpuses}
+                        <option value="{_id}">{name}</option>
+                        {/corpuses}
+                    </select>
+                </span>
+                <strong class="btn-padded">OR</strong>
+                <a href="/createCorpus" class="btn btn-primary btn-padded">Analyze a new corpus</a>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
